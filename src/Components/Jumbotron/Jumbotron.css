@@ -1,0 +1,66 @@
+.container {
+    width: 100%;
+}
+
+.jumbotron {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    border: 2px solid #343a40;
+    position: relative;
+}
+
+#jp-title {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#hu-img {
+    z-index: 1; 
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    opacity: 1;
+    background-image: url('../assets/images/headsUp.gif');
+}
+
+#html-img {
+    z-index: 2; 
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    opacity: .5;
+}
+
+#css-img {
+    z-index: 3; 
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    opacity: .5;
+}
+
+#react-img {
+    z-index: 4; 
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    opacity: .5;
+}
+
+#mon-img {
+    z-index: 5; 
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    opacity: .5;
+}
